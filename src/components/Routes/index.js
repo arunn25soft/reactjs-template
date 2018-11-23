@@ -5,13 +5,14 @@ import Profile from "../Profile";
 import Contact from "../Contact";
 import Nav from "../Nav";
 import Header from "../Header";
-import Wrapper from "../Wrapper";
+import Sidebar from "../Sidebar";
 class AppRouter extends React.Component {  
     render() {
       return (
         <Router>
           <div>
               <Header />
+              <Sidebar />
               <Nav />
               <hr />
               <Route path="/home" component={Home} />
