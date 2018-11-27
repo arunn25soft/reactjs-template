@@ -74,8 +74,12 @@ class Sidebar extends React.Component {
                             <li><a className="waves-effect waves-dark" href="typography.html"><i className="icon-arrow-right"></i> Typography</a></li>
                         </ul>
                     </li>
+                    <li className="treeview"><a className="waves-effect waves-dark" href="#!"><i className="icon-minus"></i><span> List</span></a>
+                    </li>
+                    <li className="treeview"><a className="waves-effect waves-dark" href="/profile"><i className="icon-glass"></i><span> Profile</span></a>
+                    </li>
 
-                    <li className="treeview"><a className="waves-effect waves-dark" href="#!"><i className="icon-chart"></i><span> Charts &amp; Maps</span><span className="label label-success menu-caption">New</span><i className="icon-arrow-down"></i></a>
+                    {/* <li className="treeview"><a className="waves-effect waves-dark" href="#!"><i className="icon-chart"></i><span> Charts &amp; Maps</span><span className="label label-success menu-caption">New</span><i className="icon-arrow-down"></i></a>
                         <ul className="treeview-menu">
                             <li><a className="waves-effect waves-dark" href="float-chart.html"><i className="icon-arrow-right"></i> Float Charts</a></li>
                             <li><a className="waves-effect waves-dark" href="morris-chart.html"><i className="icon-arrow-right"></i> Morris Charts</a></li>
@@ -97,9 +101,9 @@ class Sidebar extends React.Component {
                     </li>
 
 
-                    <li className="nav-level">More</li>
+                    <li className="nav-level">More</li> */}
 
-                    <li className="treeview"><a className="waves-effect waves-dark" href="#!"><i className="icon-docs"></i><span>Pages</span><i className="icon-arrow-down"></i></a>
+                    {/* <li className="treeview"><a className="waves-effect waves-dark" href="#!"><i className="icon-docs"></i><span>Pages</span><i className="icon-arrow-down"></i></a>
                         <ul className="treeview-menu">
                             <li className="treeview"><a href="#!"><i className="icon-arrow-right"></i><span> Authentication</span><i className="icon-arrow-down"></i></a>
                                 <ul className="treeview-menu">
@@ -115,12 +119,12 @@ class Sidebar extends React.Component {
                             <li><a className="waves-effect waves-dark" href="sample-page.html"><i className="icon-arrow-right"></i> Sample Page</a></li>
                             <li><a className="waves-effect waves-dark" href="search-result.html"><i className="icon-arrow-right"></i> Search Result</a></li>
                         </ul>
-                    </li>
+                    </li> */}
 
 
-                    <li className="nav-level">Menu Level</li>
+                    {/* <li className="nav-level">Menu Level</li> */}
 
-                    <li className="treeview"><a className="waves-effect waves-dark" href="#!"><i className="icofont icofont-company"></i><span>Menu Level 1</span><i className="icon-arrow-down"></i></a>
+                    {/* <li className="treeview"><a className="waves-effect waves-dark" href="#!"><i className="icofont icofont-company"></i><span>Menu Level 1</span><i className="icon-arrow-down"></i></a>
                         <ul className="treeview-menu">
                             <li>
                                 <a className="waves-effect waves-dark" href="#!">
@@ -165,7 +169,7 @@ class Sidebar extends React.Component {
                                 </ul>
                             </li>
                         </ul>
-                    </li>
+                    </li> */}
                 </ul>
             </section>
         </aside>
