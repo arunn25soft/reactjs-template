@@ -74,9 +74,9 @@ class Sidebar extends React.Component {
                             <li><a className="waves-effect waves-dark" href="typography.html"><i className="icon-arrow-right"></i> Typography</a></li>
                         </ul>
                     </li>
-                    <li className="treeview"><a className="waves-effect waves-dark" href="#!"><i className="icon-minus"></i><span> List</span></a>
+                    <li className="treeview"><a className="waves-effect waves-dark" href="/list"><i className="icon-minus"></i><span> List</span></a>
                     </li>
-                    <li className="treeview"><a className="waves-effect waves-dark" href="/profile"><i className="icon-glass"></i><span> Profile</span></a>
+                    <li className="treeview"><a className="waves-effect waves-dark" href="/list"><i className="icon-glass"></i><span> Profile</span></a>
                     </li>
 
                     {/* <li className="treeview"><a className="waves-effect waves-dark" href="#!"><i className="icon-chart"></i><span> Charts &amp; Maps</span><span className="label label-success menu-caption">New</span><i className="icon-arrow-down"></i></a>

@@ -1,8 +1,23 @@
 import React from 'react';
 class TopNav extends React.Component {  
+    componentWillMount(){
+        this.setState({ loader: true})
+    }
+    componentDidMount(){
+        var that = this;
+        setTimeout(function(){
+            that.setState({ loader: false})
+        },800);
+    }
     render() {
         return (
             <body className="sidebar-mini fixed">
+            {this.state.loader === true && ( 
+                <div class="loader-bg">
+                    <div class="loader-bar">
+                    </div>
+                </div>
+            )}
             {/* <div className="loader-bg">
                 <div className="loader-bar">
                 </div>

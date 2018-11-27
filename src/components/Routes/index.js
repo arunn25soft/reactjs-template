@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "../Home";
-import Profile from "../Profile";
+import List from "../List";
 import Contact from "../Contact";
 import Nav from "../Nav";
 import Header from "../Header";
@@ -22,7 +22,7 @@ class AppRouter extends React.Component {
               <JsFile />
               <hr />
               
-              <Route path="/profile" component={Profile} />
+              <Route path="/list" component={List} />
               <Route path="/contact" component={Contact} />
           </div>
         </Router>
