@@ -6,16 +6,22 @@ import Contact from "../Contact";
 import Nav from "../Nav";
 import Header from "../Header";
 import Sidebar from "../Sidebar";
+import TopNav from "../Topnav";
+import Footer from "../Footer";
+import JsFile from "../Footer/jsFiles.js"
 class AppRouter extends React.Component {  
     render() {
       return (
         <Router>
           <div>
               <Header />
+              <TopNav />
               <Sidebar />
-              <Nav />
-              <hr />
               <Route path="/home" component={Home} />
+              <Footer />
+              <JsFile />
+              <hr />
+              
               <Route path="/profile" component={Profile} />
               <Route path="/contact" component={Contact} />
           </div>

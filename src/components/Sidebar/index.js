@@ -1,13 +1,27 @@
 import React from 'react';
+
 class Sidebar extends React.Component {  
+    
+    constructor(props) {
+        super(props);
+        this.state = {
+
+        }
+      }
+      componentWillMount(){
+         
+      }
+      componentDidMount(){
+        
+      }
+    
     render() {
-      return (
-<aside className="main-sidebar hidden-print " >
+        return (
+            <aside className="main-sidebar hidden-print " >
             <section className="sidebar" id="sidebar-scroll">
                 
                 <div className="user-panel">
-                    <div className="f-left image"><img src="assets/images/avatar-1.png" alt="User Image" className="img-circle"></img>
-                    </div>
+                    <div className="f-left image"><img src="assets/images/avatar-1.png" alt="User Image" className="img-circle" /></div>
                     <div className="f-left info">
                         <p>John Doe</p>
                         <p className="designation">UX Designer <i className="icofont icofont-caret-down m-l-5"></i></p>
