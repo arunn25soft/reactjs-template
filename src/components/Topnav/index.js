@@ -13,8 +13,8 @@ class TopNav extends React.Component {
         return (
             <body className="sidebar-mini fixed">
             {this.state.loader === true && ( 
-                <div class="loader-bg">
-                    <div class="loader-bar">
+                <div className="loader-bg">
+                    <div className="loader-bar">
                     </div>
                 </div>
             )}

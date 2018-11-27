@@ -13,7 +13,8 @@ class AppRouter extends React.Component {
     render() {
       return (
         <Router>
-          <div>
+              
+              <html>
               <Header />
               <TopNav />
               <Sidebar />
@@ -24,7 +25,7 @@ class AppRouter extends React.Component {
               
               <Route path="/list" component={List} />
               <Route path="/contact" component={Contact} />
-          </div>
+              </html>
         </Router>
       )
     }
